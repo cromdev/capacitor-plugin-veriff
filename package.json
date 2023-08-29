@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-veriff",
-  "version": "1.3.0",
+  "version": "5.0.0",
   "description": "Capacitor plugin exposing Veriff SDK",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorPluginVeriff.podspec"
   ],
-  "author": "Carlos Santos",
-  "license": "Apache-2.0",
+  "author": "Money Jar Dev Team",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CSantosM/capacitor-plugin-veriff.git"
+    "url": "git+https://bitbucket.org/moneyjarapp/capacitor-plugin-veriff.git"
   },
   "bugs": {
-    "url": "https://github.com/CSantosM/capacitor-plugin-veriff/issues"
+    "url": "https://bitbucket.org/moneyjarapp/capacitor-plugin-veriff/issues"
   },
   "keywords": [
     "capacitor",
@@ -53,11 +53,11 @@
     "@ionic/swiftlint-config": "^1.1.2",
     "eslint": "^7.11.0",
     "prettier": "~2.2.0",
-    "prettier-plugin-java": "~1.0.0",
+    "prettier-plugin-java": "~1.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.32.0",
     "swiftlint": "^1.0.1",
-    "typescript": "~4.0.3"
+    "typescript": "4.9"
   },
   "peerDependencies": {
     "@capacitor/core": "^5.2.3"
